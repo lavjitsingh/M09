@@ -1,0 +1,61 @@
+html{    
+    background-image: url(img/fons01.jpg);
+    background-size: 1850px 2200px;
+    background-repeat: no-repeat;
+}
+
+body{
+    
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+}
+
+div{
+    width: 800px;
+    float: right;
+    margin-left: 200px;
+}
+
+.title{
+    color: ghostwhite;
+    width: auto;
+    text-align: right;
+    margin: 10px;
+    margin-right: 600px;
+}
+
+
+#menu {
+    background-color: ;
+    color: whitesmoke;
+    margin-right: 300px;
+    margin-left: 300px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden:  
+}
+
+.par{
+    text-align: center;
+    color:white;
+    font-size: 42px;
+}
+
+.preu{
+    text-align: right;
+    font-size: 58px;
+}
+
+.plats{
+    text-align: center;
+    font-weight: bold;
+}
+.menutitul{
+    text-align: center;
+    margin: 25px;
+    font-weight: bold;
+    font-size: 68px;
+    text-decoration: underline;
+
+}
