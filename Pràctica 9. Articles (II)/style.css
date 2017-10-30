@@ -3,16 +3,35 @@ div#foto {
     height: 300px;
     background-image: url(img/bonsai-2.jpg);
     background-repeat: no-repeat;
+
 }
 
 div#info {
     width: 300px;
     height: 300px;
     background-color: cornflowerblue;
-    opacity: 0;
+    visibility: hidden;
 }
 
-div#foto:hover#info {
-    opacity: 1;
+div#foto:hover #info {
+    visibility: visible;
 
+}
+
+p#title {
+    font-weight: 900;
+    text-align: center;
+}
+
+button{
+    float: right;
+    cursor: pointer;
+    background-color: darkslategray;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
 }
