@@ -11,17 +11,80 @@ div#main {
   background-color: #296a85;
 }
 
-div#top{
-  height: 10%;
+div#top {
+  height: 15%;
   background-color: #484f2b;
 }
 
-div#body{
-  height: 70%;
+div#body {
+  height: 65%;
+  width: 100%;
   background-color: #4f7c57;
+  position: relative;
 }
 
-div#foot{
+div#bodyLeft {
+  height: 100%;
+  width: 20%;
+  background-color: #eee504;
+}
+
+div#bodyRight {
+  height: 100%;
+  width: 80%;
+  background-color: rgb(86, 184, 62);
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+div#bodyRight1 {
+  height: 60%;
+  width: 30%;
+  background-color: #af7c19;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+div#bodyRight2 {
+  height: 60%;
+  width: 30%;
+  background-color: #af7c19;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+div#bodyRight3 {
+  height: 25%;
+  background-color: #af7c19;
+  position: absolute;
+  right: 20px;
+  left: 20px;
+  bottom: 20px;
+}
+
+div#foot {
   height: 30%;
   background-color: #56a5aa;
+  position: relative;
+}
+
+div#footLeft {
+  width: 25%;
+  background-color: rgb(41, 48, 221);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+}
+
+div#footRight {
+  width: 15%;
+  background-color: rgb(27, 191, 181);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
 }
